@@ -1,0 +1,39 @@
+.nsvj {
+  background: linear-gradient(to right, #552b7a, #6b4165);
+  /* background: linear-gradient(to right, #403a3e, #be5869); */
+  /* background: linear-gradient(to right, #948e99, #2e1437);  */
+  /* background: linear-gradient(to right, #780206, #061161); */
+  opacity: 0.9;
+}
+.webname {
+  margin-right: 20px;
+  color: white;
+}
+
+.lnv {
+  margin-right: 0.625em;
+  /* margin-top: .8em; */
+  text-decoration: none;
+  color: whitesmoke;
+  height: 45px;
+  /* border: 1px solid black; */
+}
+.lnv:hover {
+  color: darkgrey;
+}
+.lnv:active {
+  color: black;
+}
+
+@media (min-width: 420px) {
+  .navItem ul {
+    margin-top: 0.9rem;
+    width: 80%;
+    padding: 0 0 0 10rem;
+    /* display: flex; */
+    justify-content: space-around;
+  }
+  .lnv {
+    margin-right: 20px;
+  }
+}

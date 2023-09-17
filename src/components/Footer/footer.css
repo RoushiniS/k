@@ -1,0 +1,50 @@
+.mainFooter {
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+  /* animation: gradient 10s infinite alternate linear; */
+  background: hsl(224, 38%, 41%);
+  background: linear-gradient(to right, #552b7a, #6b4165);
+
+  /* height: 200px; */
+  color: white;
+}
+@keyframes gradient {
+  100% {
+    background: hsl(338, 38%, 41%);
+  }
+}
+.icons {
+  width: 20rem;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.ic {
+  width: 20px;
+  height: 20px;
+  margin: 10px;
+}
+
+.leftCont ul li {
+  /* display: inline; */
+
+  list-style-type: none;
+  /* border: 1px solid white; */
+}
+.leftCont ul li {
+  padding: 0.4rem;
+}
+.dsclmBtn {
+  padding: 0;
+  background: transparent;
+  color: white;
+}
+.dsclmBtn:active,
+.dsclmBtn:hover {
+  background: transparent;
+  color: white;
+}
+.dslrBody {
+  color: black;
+}
+.modalTitle {
+  color: black;
+}

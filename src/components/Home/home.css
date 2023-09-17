@@ -1,0 +1,50 @@
+.sectionOne img {
+  height: 500px;
+}
+.subSectionOne {
+  height: 550px;
+}
+
+/* .mobile-img {
+  height: 550px;
+} */
+@media (max-width: 576px) {
+  .nineChakras h5 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  /* .sevices{
+    display: flex;
+    align-items: center;
+    margin: 10px 20px 20px 10px;
+
+  } */
+}
+
+/* services */
+.sevices {
+  background: linear-gradient(to right, #dae2f8, #d6a4a4);
+  padding: 1.6em 2em 2em 1.6em;
+}
+
+/* Chakras */
+
+.nineChakras {
+  background: linear-gradient(to right, #614385, #516395);
+  padding: 2rem;
+}
+.nineChakras h5 {
+  background: linear-gradient(to right, #757f9a, #d7dde8);
+  margin: 1em 1em;
+  padding: 0.2em;
+  line-height: 1.5;
+}
+/* .nineChakrasSub{
+  background-color: seagreen;
+padding: 20px;
+} */
